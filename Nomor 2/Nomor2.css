@@ -1,0 +1,48 @@
+.Kotak {
+    position:relative;
+    width:280px;
+    height:180px;
+    background:#5588ab;
+}
+
+.AtasKiri {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    border-top: 20px solid white;
+    border-right: 20px solid transparent;
+    width: 0;
+}
+
+.AtasKanan {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 20px solid white;
+    border-left: 20px solid transparent;
+    width: 0;
+}
+
+.BawahKiri {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    border-bottom: 20px solid white;
+    border-right: 20px solid transparent;
+    width: 0;
+}
+
+.BawahKanan {
+    content: '';
+    position: absolute;
+    bottom: 0; right: 0;
+    border-bottom: 20px solid white;
+    border-left: 20px solid transparent;
+    width: 0;
+}
+.Text {
+	padding: 10%;
+	color: white;
+    text-align: center; 
+    vertical-align: middle;
+}
